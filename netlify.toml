@@ -1,0 +1,6 @@
+[build]
+  publish = "."
+
+[[notifications.email]]
+  to = ["info@ishandisha.com", "invest@ishandisha.com"]
+  event = "submission_created"

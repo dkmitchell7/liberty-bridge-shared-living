@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: #0a2a43;
+  color: #fff;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo.small {
+  height: 40px;
+}
+
+.subtitle {
+  font-size: 0.9em;
+}
+
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+  background: #123e63;
+  color: #fff;
+}
+
+.section {
+  padding: 40px 20px;
+  background: #fff;
+  margin: 20px;
+}
+
+.images {
+  display: flex;
+  gap: 15px;
+}
+
+.img-box {
+  flex: 1;
+  background: #ddd;
+  padding: 40px;
+  text-align: center;
+}
+
+.cta {
+  background: #c9a24d;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cta.secondary {
+  background: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a2a43;
+  color: #fff;
+}

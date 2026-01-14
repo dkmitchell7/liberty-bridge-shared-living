@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liberty Bridge Shared Living | ISH & ISHA Investments LLC</title>
+  <meta name="description" content="Transitional shared housing for homeless veterans and individuals in transition in Metro Detroit." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="assets/logo.png" alt="ISH & ISHA Investments LLC Logo" class="logo">
+    <div>
+      <h1>Liberty Bridge Shared Living</h1>
+      <p class="subtitle">A Program of ISH & ISHA Investments LLC</p>
+    </div>
+    <a href="#referral" class="cta">Submit Housing Referral</a>
+  </header>
+
+  <section class="hero">
+    <h2>Transitional Shared Housing for Veterans & Individuals in Transition</h2>
+    <p>Safe • Structured • Affordable • Per-Bed Housing in Metro Detroit</p>
+    <a href="tel:13136497007" class="cta secondary">Call (313) 649-7007</a>
+  </section>
+
+  <section class="section">
+    <h3>Our Mission</h3>
+    <p>
+      Liberty Bridge Shared Living provides safe, affordable, shared housing for homeless veterans
+      and individuals transitioning from housing instability. Our mission is to bridge the gap
+      between homelessness and independent living through structured, community-based housing
+      that promotes dignity, stability, and long-term self-sufficiency.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>Housing Model</h3>
+    <ul>
+      <li>Single-Family Homes (3–4 Bedrooms)</li>
+      <li>2 Beds Per Bedroom</li>
+      <li>Furnished Units</li>
+      <li>Utilities Included</li>
+      <li>Per-Bed Contracting Available</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h3>Property Images</h3>
+    <div class="images">
+      <div class="img-box">Property 1</div>
+      <div class="img-box">Property 2</div>
+      <div class="img-box">Property 3</div>
+    </div>
+  </section>
+
+  <section class="section" id="referral">
+    <h3>Caseworker Referral Form</h3>
+    <form name="housing-referral" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="housing-referral">
+      <input type="text" name="organization" placeholder="Referring Organization" required>
+      <input type="text" name="name" placeholder="Caseworker Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone">
+      <select name="client_type">
+        <option>Veteran</option>
+        <option>Non-Veteran</option>
+      </select>
+      <textarea name="notes" placeholder="Notes"></textarea>
+      <input type="file" name="documents">
+      <button type="submit" class="cta">Submit Referral</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <img src="assets/logo.png" alt="ISH & ISHA Investments LLC Logo" class="logo small">
+    <p>ISH & ISHA Investments LLC | Metro Detroit</p>
+    <p>Email: info@ishandisha.com | invest@ishandisha.com</p>
+    <p>Phone: (313) 649-7007</p>
+  </footer>
+</body>
+</html>
